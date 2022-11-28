@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--        <item-->
+<!--            android:title="회원 정보 수정"-->
+<!--            android:id="@+id/navi_name"/>-->
+
+    <item
+        android:title="Homepage"
+        android:icon="@drawable/ic_homepage_24"
+        android:id="@+id/navi_homepage"/>
+
+    <item
+        android:title="Instargram"
+        android:icon="@drawable/ic_star_24"
+        android:id="@+id/navi_instargram"/>
+
+    <item
+        android:title="Fan Cafe"
+        android:icon="@drawable/ic_cafe_24"
+        android:id="@+id/navi_fancafe"/>
+
+    <item
+        android:title="Youtube"
+        android:icon="@drawable/ic_youtube_24"
+        android:id="@+id/navi_youtube"/>
+
+    <item
+        android:title="Account"
+        android:icon="@drawable/ic_person_24"
+        android:id="@+id/navi_account"/>
+
+</menu>

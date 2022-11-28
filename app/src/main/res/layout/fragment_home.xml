@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/rococo_rose_pink"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/iv_calendar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_calendar_24" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:hint="2022/02/02"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_calendar"
+        app:layout_constraintStart_toEndOf="@+id/iv_calendar"
+        app:layout_constraintTop_toTopOf="@+id/iv_calendar" />
+
+    <ImageView
+        android:id="@+id/iv_clock"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_date"
+        app:layout_constraintStart_toEndOf="@+id/tv_date"
+        app:layout_constraintTop_toTopOf="@+id/tv_date"
+        app:srcCompat="@drawable/ic_watch_24" />
+
+    <DigitalClock
+        android:id="@+id/d_clock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:textColor="@color/hjm_black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_clock"
+        app:layout_constraintStart_toEndOf="@+id/iv_clock"
+        app:layout_constraintTop_toTopOf="@+id/iv_clock" />
+
+    <ImageView
+        android:id="@+id/iv_home"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/home_tv_sign"
+        app:layout_constraintEnd_toEndOf="@+id/d_clock"
+        app:layout_constraintStart_toStartOf="@+id/iv_calendar"
+        app:layout_constraintTop_toBottomOf="@+id/iv_calendar"
+        app:srcCompat="@drawable/home" />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/iv_account"-->
+<!--        android:layout_width="20dp"-->
+<!--        android:layout_height="20dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/tv_account"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/tv_account"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/tv_account"-->
+<!--        app:srcCompat="@drawable/ic_person_24" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tv_account"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:hint="accout"-->
+<!--        android:textSize="15sp"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/home_tv_sign"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/home_tv_sign" />-->
+
+    <TextView
+        android:id="@+id/home_tv_sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="80dp"
+        android:text="by. Jung min"
+        android:textColor="@color/hjm_black"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

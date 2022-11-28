@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/iphone_rose_gold"
+        app:layout_constraintBottom_toTopOf="@+id/mp_constraint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/pl_iv_album_cover"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:foregroundGravity="center"
+            android:maxWidth="180dp"
+            android:maxHeight="180dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_album_24" />
+
+        <TextView
+            android:id="@+id/pl_tv_album_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:text="@string/album_name1"
+            android:textColor="@color/hjm_black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/pl_iv_album_cover"
+            app:layout_constraintTop_toTopOf="@+id/pl_iv_album_cover" />
+
+        <TextView
+            android:id="@+id/pl_tv_singer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/singer"
+            android:textColor="@color/hjm_black"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="@+id/pl_tv_album_title"
+            app:layout_constraintTop_toBottomOf="@+id/pl_tv_album_title" />
+
+        <ImageView
+            android:id="@+id/pl_iv_play"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="5dp"
+            app:layout_constraintStart_toStartOf="@+id/pl_tv_singer"
+            app:layout_constraintTop_toBottomOf="@+id/pl_tv_singer"
+            app:srcCompat="@drawable/play" />
+
+        <TextView
+            android:id="@+id/pl_tv_title_song"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="@string/title_song1"
+            android:textColor="@color/hjm_black"
+            app:layout_constraintBottom_toBottomOf="@+id/pl_iv_play"
+            app:layout_constraintStart_toEndOf="@+id/pl_iv_play"
+            app:layout_constraintTop_toTopOf="@+id/pl_iv_play" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/mp_constraint"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/constraintLayout"
+        app:layout_constraintStart_toStartOf="@+id/constraintLayout"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/iphone_rose_gold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/mp_back_iv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:alpha="0.6"
+                app:srcCompat="@drawable/album17" />
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/mp_iv_album_cover"
+            android:layout_width="230dp"
+            android:layout_height="230dp"
+            android:layout_marginTop="20dp"
+            android:foregroundGravity="center"
+            android:maxWidth="180dp"
+            android:maxHeight="180dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_album_24" />
+
+        <TextView
+            android:id="@+id/mp_tv_title_song"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/title_song1"
+            android:textColor="@color/hjm_black"
+            android:textSize="26sp"
+            app:layout_constraintEnd_toEndOf="@+id/mp_iv_album_cover"
+            app:layout_constraintStart_toStartOf="@+id/mp_iv_album_cover"
+            app:layout_constraintTop_toBottomOf="@+id/mp_iv_album_cover" />
+
+        <TextView
+            android:id="@+id/mp_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/album_name1"
+            android:textColor="@color/hjm_black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/mp_iv_album_cover"
+            app:layout_constraintStart_toStartOf="@+id/mp_iv_album_cover"
+            app:layout_constraintTop_toBottomOf="@+id/mp_tv_title_song" />
+
+        <TextView
+            android:id="@+id/mp_tv_singer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/singer"
+            android:textColor="@color/hjm_black"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="@+id/mp_tv_title"
+            app:layout_constraintStart_toStartOf="@+id/mp_tv_title"
+            app:layout_constraintTop_toBottomOf="@+id/mp_tv_title" />
+
+        <ImageView
+            android:id="@+id/mp_iv_backward"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="50dp"
+            android:scaleX="-1"
+            app:layout_constraintBottom_toBottomOf="@+id/mp_iv_play"
+            app:layout_constraintEnd_toStartOf="@+id/mp_iv_play"
+            app:layout_constraintTop_toTopOf="@+id/mp_iv_play"
+            app:srcCompat="@drawable/ic_fast_forward_24" />
+
+        <ImageView
+            android:id="@+id/mp_iv_play"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/mp_tv_singer"
+            app:layout_constraintStart_toStartOf="@+id/mp_tv_singer"
+            app:layout_constraintTop_toBottomOf="@+id/mp_tv_singer"
+            app:srcCompat="@drawable/ic_play_arrow_24" />
+
+        <ImageView
+            android:id="@+id/mp_iv_fast_foward"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="50dp"
+            app:layout_constraintBottom_toBottomOf="@+id/mp_iv_play"
+            app:layout_constraintStart_toEndOf="@+id/mp_iv_play"
+            app:layout_constraintTop_toTopOf="@+id/mp_iv_play"
+            app:srcCompat="@drawable/ic_fast_forward_24" />
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="-30dp"
+            android:outlineAmbientShadowColor="#8C6DC6"
+            app:layout_constraintEnd_toEndOf="@+id/mp_iv_fast_foward"
+            app:layout_constraintStart_toStartOf="@+id/mp_iv_backward"
+            app:layout_constraintTop_toBottomOf="@+id/mp_tv_singer" />
+
+        <TextView
+            android:id="@+id/mp_left_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="-20dp"
+            android:layout_marginBottom="5dp"
+            android:text="00:00"
+            android:textColor="#8C6DC6"
+            app:layout_constraintBottom_toBottomOf="@+id/mp_tv_singer"
+            app:layout_constraintEnd_toStartOf="@+id/seekBar" />
+
+        <TextView
+            android:id="@+id/mp_right_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-20dp"
+            android:layout_marginBottom="5dp"
+            android:text="00:00"
+            android:textColor="#8C6DC6"
+            app:layout_constraintBottom_toBottomOf="@+id/mp_tv_singer"
+            app:layout_constraintStart_toEndOf="@+id/seekBar" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

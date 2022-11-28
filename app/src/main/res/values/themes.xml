@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.IUPlayer" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/rococo_rose_red</item>
+        <item name="colorPrimaryVariant">@color/rococo_rose_pink</item>
+        <item name="colorOnPrimary">@color/hjm_white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/rococo_rose_pink</item>
+        <item name="colorSecondaryVariant">@color/rococo_monet_red</item>
+        <item name="colorOnSecondary">@color/iphone_black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

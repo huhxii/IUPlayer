@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--    <ImageView-->
+<!--        android:id="@+id/ac_iv_person"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:layout_marginStart="30dp"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/toolbar"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:srcCompat="@drawable/ic_person2_24" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/ac_tv_info"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="50dp"-->
+<!--        android:text="회원정보"-->
+<!--        android:textColor="#917B56"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/ac_iv_person"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/ac_iv_person"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/ac_iv_person" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/ac_iv_name"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/ac_iv_person"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/ac_iv_person"-->
+<!--        app:srcCompat="@drawable/ic_name_24" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/ac_tv_name"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="5dp"-->
+<!--        android:text="이름"-->
+<!--        android:textColor="#917B56"-->
+<!--        android:textSize="16sp"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/ac_iv_name"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/ac_iv_name"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/ac_iv_name" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/ac_edt_name"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="허정민"-->
+<!--        android:textColor="#917B56"-->
+<!--        android:textSize="16sp"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/ac_tv_name"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/ac_tv_info"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/ac_tv_name" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/ac_iv_birth"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/ac_iv_name"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/ac_iv_name"-->
+<!--        app:srcCompat="@drawable/ic_cake_24" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/ac_tv_birth"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="5dp"-->
+<!--        android:text="생년월일"-->
+<!--        android:textColor="#917B56"-->
+<!--        android:textSize="16sp"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/ac_iv_birth"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/ac_iv_birth"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/ac_iv_birth" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/ac_edt_birth"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="1991.06.01"-->
+<!--        android:textColor="#917B56"-->
+<!--        android:textSize="16sp"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/ac_tv_birth"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/ac_edt_name"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/ac_tv_birth" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/ac_iv_age"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/ac_iv_birth"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/ac_iv_birth"-->
+<!--        app:srcCompat="@drawable/ic_numbers_24" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/ac_tv_age"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="5dp"-->
+<!--        android:text="나이"-->
+<!--        android:textColor="#917B56"-->
+<!--        android:textSize="16sp"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/ac_iv_age"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/ac_iv_age"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/ac_iv_age" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/ac_edt_age"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="32"-->
+<!--        android:textColor="#917B56"-->
+<!--        android:textSize="16sp"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/ac_tv_age"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/ac_edt_birth"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/ac_tv_age" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/ac_iv_phone"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/ac_iv_age"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/ac_iv_age"-->
+<!--        app:srcCompat="@drawable/ic_phone_24" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/ac_tv_phone"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="5dp"-->
+<!--        android:text="전화번호"-->
+<!--        android:textColor="#917B56"-->
+<!--        android:textSize="16sp"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/ac_iv_phone"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/ac_iv_phone"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/ac_iv_phone" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/ac_edt_phone"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="010-5501-9891"-->
+<!--        android:textColor="#917B56"-->
+<!--        android:textSize="16sp"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/ac_tv_phone"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/ac_edt_age"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/ac_tv_phone" />-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

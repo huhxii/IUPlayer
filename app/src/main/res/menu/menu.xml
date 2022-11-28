@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_like"
+        android:icon="@drawable/full_like"
+        android:title="Like"/>
+    <item
+        android:id="@+id/menu_main"
+        android:icon="@drawable/list_button"
+        android:title="전체보기"/>
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="Search"/>
+
+</menu>

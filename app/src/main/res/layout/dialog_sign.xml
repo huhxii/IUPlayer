@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/dialog_tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:text="이름"
+        android:textColor="@color/rococo_rose_green"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/dialog_edt_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="40dp"
+        android:hint="이름 입력란"
+        android:textSize="18sp"
+        android:textColor="@color/rococo_rose_green"
+        app:layout_constraintBottom_toBottomOf="@+id/dialog_tv_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/dialog_tv_name"
+        app:layout_constraintTop_toTopOf="@+id/dialog_tv_name" />
+
+    <TextView
+        android:id="@+id/dialog_tv_birth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="생년월일"
+        android:textColor="@color/rococo_rose_green"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/dialog_tv_name"
+        app:layout_constraintTop_toBottomOf="@+id/dialog_tv_name" />
+
+    <ImageView
+        android:id="@+id/dialog_iv_birth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/dialog_tv_birth"
+        app:layout_constraintStart_toStartOf="@+id/dialog_edt_name"
+        app:layout_constraintTop_toTopOf="@+id/dialog_tv_birth"
+        app:srcCompat="@drawable/ic_calendar_24" />
+
+    <TextView
+        android:id="@+id/dialog_edt_birth"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:hint="YYYY.MM.DD"
+        android:textColor="@color/rococo_rose_green"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/dialog_tv_birth"
+        app:layout_constraintEnd_toEndOf="@+id/dialog_edt_name"
+        app:layout_constraintStart_toEndOf="@+id/dialog_iv_birth"
+        app:layout_constraintTop_toTopOf="@+id/dialog_tv_birth" />
+
+    <TextView
+        android:id="@+id/dialog_tv_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="나이"
+        android:textColor="@color/rococo_rose_green"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/dialog_tv_birth"
+        app:layout_constraintTop_toBottomOf="@+id/dialog_tv_birth" />
+
+    <TextView
+        android:id="@+id/dialog_edt_age"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="나이 입력란"
+        android:textSize="18sp"
+        android:textColor="@color/rococo_rose_green"
+        app:layout_constraintBottom_toBottomOf="@+id/dialog_tv_age"
+        app:layout_constraintEnd_toEndOf="@+id/dialog_edt_birth"
+        app:layout_constraintStart_toStartOf="@+id/dialog_edt_name"
+        app:layout_constraintTop_toTopOf="@+id/dialog_tv_age" />
+
+    <TextView
+        android:id="@+id/dialog_tv_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="연락처"
+        android:textColor="@color/rococo_rose_green"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/dialog_tv_age"
+        app:layout_constraintTop_toBottomOf="@+id/dialog_tv_age" />
+
+    <EditText
+        android:id="@+id/dialog_edt_phone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="연락처 입력란"
+        android:textSize="18sp"
+        android:textColor="@color/rococo_rose_green"
+        app:layout_constraintBottom_toBottomOf="@+id/dialog_tv_phone"
+        app:layout_constraintEnd_toEndOf="@+id/dialog_edt_age"
+        app:layout_constraintStart_toStartOf="@+id/dialog_edt_age"
+        app:layout_constraintTop_toTopOf="@+id/dialog_tv_phone" />
+
+    <Button
+        android:id="@+id/dialog_btn.cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/rococo_rose_green"
+        android:background="@color/rococo_rose_pink"
+        android:text="cancel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/dialog_tv_phone"
+        app:layout_constraintTop_toBottomOf="@+id/dialog_tv_phone" />
+
+    <Button
+        android:id="@+id/dialog_btn_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:textColor="@color/rococo_rose_green"
+        android:background="@color/rococo_rose_pink"
+        android:text="ok"
+        app:layout_constraintBottom_toBottomOf="@+id/dialog_btn.cancel"
+        app:layout_constraintEnd_toEndOf="@+id/dialog_edt_phone"
+        app:layout_constraintTop_toTopOf="@+id/dialog_btn.cancel" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

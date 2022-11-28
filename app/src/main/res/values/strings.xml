@@ -1,0 +1,177 @@
+<resources>
+    <string name="app_name">IU Player</string>
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close Drawer</string>
+
+    <string name="album_kind1">[미니 앨범]</string>
+    <string name="album_name1">Lost And Found</string>
+    <string name="singer">아이유(IU)</string>
+    <string name="title_song1">미아</string>
+    <string name="info1">2008.09.23 | 6곡</string>
+
+    <string name="album_kind2">[정규 앨범]</string>
+    <string name="album_name2">Growing Up</string>
+    <string name="title_song2">Boo</string>
+    <string name="info2">2009.04.23 | 16곡</string>
+
+    <string name="album_kind3">[미니 앨범]</string>
+    <string name="album_name3">IU...IM</string>
+    <string name="title_song3">마쉬멜로우</string>
+    <string name="info3">2009.11.12 | 7곡</string>
+
+    <string name="album_kind4">[디지털 싱글]</string>
+    <string name="album_name4">잔소리</string>
+    <string name="title_song4">잔소리</string>
+    <string name="info4">2010.06.03 | 2곡</string>
+
+    <string name="album_kind5">[디지털 싱글]</string>
+    <string name="album_name5">그대네요</string>
+    <string name="title_song5">그대네요</string>
+    <string name="info5">2010.09.28 | 2곡</string>
+
+    <string name="album_kind6">[미니 앨범]</string>
+    <string name="album_name6">Real</string>
+    <string name="title_song6">좋은 날</string>
+    <string name="info6">2010.12.09 | 7곡</string>
+
+    <string name="album_kind7">[싱글]</string>
+    <string name="album_name7">Real+</string>
+    <string name="title_song7">나만 몰랐던 이야기</string>
+    <string name="info7">2011.02.17 | 3곡</string>
+
+    <string name="album_kind8">[정규 앨범]</string>
+    <string name="album_name8">Last Fantasy</string>
+    <string name="title_song8">너랑 나</string>
+    <string name="info8">2011.11.29 | 13곡</string>
+
+    <string name="album_kind9">[싱글]</string>
+    <string name="album_name9">스무 살의 봄</string>
+    <string name="title_song9">하루 끝</string>
+    <string name="info9">2012.05.11 | 3곡</string>
+
+    <string name="album_kind10">[정규 앨범]</string>
+    <string name="album_name10">Modern Times</string>
+    <string name="title_song10">분홍신</string>
+    <string name="info10">2013.10.08 | 13곡</string>
+
+    <string name="album_kind11">[정규 앨범]</string>
+    <string name="album_name11">Modern Times-Epilogue</string>
+    <string name="title_song11">금요일에 만나요</string>
+    <string name="info11">2013.12.20 | 15곡</string>
+
+    <string name="album_kind12">[디지털 싱글]</string>
+    <string name="album_name12">봄 사랑 벚꽃 말고</string>
+    <string name="title_song12">봄 사랑 벚꽃 말고</string>
+    <string name="info12">2014.04.08 | 2곡</string>
+
+    <string name="album_kind13">[리메이크 앨범]</string>
+    <string name="album_name13">꽃갈피</string>
+    <string name="title_song13">나의 옛날이야기</string>
+    <string name="info13">2014.05.16 | 7곡</string>
+
+    <string name="album_kind14">[디지털 싱글]</string>
+    <string name="album_name14">소격동</string>
+    <string name="title_song14">소격동</string>
+    <string name="info14">2014.10.02 | 1곡</string>
+
+    <string name="album_kind15">[디지털 싱글]</string>
+    <string name="album_name15">마음</string>
+    <string name="title_song15">마음</string>
+    <string name="info15">2015.05.18 | 1곡</string>
+
+    <string name="album_kind16">[미니 앨범]</string>
+    <string name="album_name16">CHAT-SHIRE</string>
+    <string name="title_song16">스물셋</string>
+    <string name="info16">2015.10.23 | 7곡</string>
+
+    <string name="album_kind17">[정규 앨범]</string>
+    <string name="album_name17">Palette</string>
+    <string name="title_song17">팔레트</string>
+    <string name="info17">2017.04.21 | 10곡</string>
+
+    <string name="album_kind18">[리메이크 앨범]</string>
+    <string name="album_name18">꽃갈피 둘</string>
+    <string name="title_song18">잠 못 드는 밤 비는 내리고</string>
+    <string name="info18">2017.09.22 | 6곡</string>
+
+    <string name="album_kind19">[디지털 싱글]</string>
+    <string name="album_name19">삐삐</string>
+    <string name="title_song19">삐삐</string>
+    <string name="info19">2018.10.10 | 1곡</string>
+
+    <string name="album_kind20">[미니 앨범]</string>
+    <string name="album_name20">Love Poem</string>
+    <string name="title_song20">Blueming</string>
+    <string name="info20">2019.11.18 | 6곡</string>
+
+    <string name="album_kind21">[디지털 싱글]</string>
+    <string name="album_name21">첫 겨울이니까</string>
+    <string name="title_song21">첫 겨울이니까</string>
+    <string name="info21">2019.12.09 | 2곡</string>
+
+    <string name="album_kind22">[디지털 싱글]</string>
+    <string name="album_name22">에잇</string>
+    <string name="title_song22">에잇</string>
+    <string name="info22">2020.05.06 | 1곡</string>
+
+    <string name="album_kind23">[정규 앨범]</string>
+    <string name="album_name23">LILAC</string>
+    <string name="title_song23">라일락</string>
+    <string name="info23">2021.03.25 | 10곡</string>
+
+    <string name="album_kind24">[디지털 싱글]</string>
+    <string name="album_name24">strawberry moon</string>
+    <string name="title_song24">strawberry moon</string>
+    <string name="info24">2021.10.19 | 1곡</string>
+
+    <string name="album_kind25">[스페셜 미니]</string>
+    <string name="album_name25">조각집</string>
+    <string name="title_song25">겨울잠</string>
+    <string name="info25">2021.12.29 | 1곡</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="con_name1">[Love, Poem]</string>
+    <string name="con_place1">장소 : KSPO돔 (前 올림픽 체조 경기장)</string>
+    <string name="con_date1">날짜 : 2019.11.23(토) ~ 2019.11.24(일)</string>
+    <string name="con_time1">시간 : 토, 일 19:00</string>
+
+    <string name="con_name2">[이 지금 dlwlrma]</string>
+    <string name="con_place2">장소 : KSPO돔 (前 올림픽 체조 경기장)</string>
+    <string name="con_date2">날짜 : 2018.11.17(토) ~ 2018.11.18(일)</string>
+    <string name="con_time2">시간 : 토, 일 19:00</string>
+
+    <string name="con_name3">[팔레트]</string>
+    <string name="con_place3">장소 : 잠실 실내 체육관</string>
+    <string name="con_date3">날짜 : 2017.12.09(토) ~ 2017.12.10(일)</string>
+    <string name="con_time3">시간 : 토, 일 19:00</string>
+
+    <string name="con_name4">[스물네 걸음 : 하나 둘 셋 넷]</string>
+    <string name="con_place4">장소 : 올림픽공원 SK 핸드볼 경기장</string>
+    <string name="con_date4">날짜 : 2016.12.03(토) ~ 2017.12.04(일)</string>
+    <string name="con_time4">시간 : 토, 일 19:00</string>
+
+    <string name="con_name5">[CHAT - SHIRE]</string>
+    <string name="con_place5">장소 : 올림픽공원 올림픽홀</string>
+    <string name="con_date5">날짜 : 2015.11.21(토) ~ 2015.11.22(일)</string>
+    <string name="con_time5">시간 : 토, 일 19:00</string>
+
+    <string name="con_name6">[딱 한발짝...그 만큼만 더]</string>
+    <string name="con_place6">장소 : 서강대학교 메리홀 대극장</string>
+    <string name="con_date6">날짜 : 2014.05.22(목) ~ 2014.06.01(목)</string>
+    <string name="con_time6">시간 : 19:00</string>
+
+    <string name="con_name7">[Modern Times]</string>
+    <string name="con_place7">장소 : 경희대학교 평화의 전당</string>
+    <string name="con_date7">날짜 : 2013.11.23(토) ~ 2013.11.24(일)</string>
+    <string name="con_time7">시간 : 토, 일 19:00</string>
+
+    <string name="con_name8">[Real Fantasy]</string>
+    <string name="con_place8">장소 : 경희대학교 평화의 전당</string>
+    <string name="con_date8">날짜 : 2012.06.02(토) ~ 2012.06.03(일)</string>
+    <string name="con_time8">시간 : 토, 일 19:00</string>
+
+    <string name="drawer_opened">Opened Drawer</string>
+    <string name="drawer_closed">Closed Drawer</string>
+
+</resources>
